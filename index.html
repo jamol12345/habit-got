@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pizza order</h1>
+      <form>
+        <input type="text" placeholder="user name" id="name" />
+        <input type="text" placeholder="phone number" id="phone" />
+        <input type="email" placeholder="email address" id="mail" />
+      </form>
+      <div class="size-thickness">
+        <div class="thickness">
+          <h3>Dough thickness</h3>
+          <select name="" id="selection">
+            <option value="thin">Thin</option>
+            <option value="medium">Medium</option>
+            <option value="thick">Thick</option>
+          </select>
+        </div>
+        <div class="size">
+          <h3>Size</h3>
+          <section class="btns">
+            <button>25sm</button>
+            <button>30sm</button>
+            <button>40sm</button>
+          </section>
+        </div>
+      </div>
+      <div class="footer">
+        <button id="save">save</button>
+        <button>clear</button>
+      </div>
+    </div>
+    <div id="orders"></div>
+    <script src="index.js"></script>
+  </body>
+</html>
